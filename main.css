@@ -1,0 +1,279 @@
+div .roll, .betplace, .betbuttons, .basic{
+    border: 1px solid rgba(128, 128, 128, 0.75);
+    padding: 5px;
+}
+.betbuttons{
+    margin:5px;
+}
+.betplace{
+    display: flex;
+}
+.betplace p{
+    margin-left: 10px;
+}
+
+.arrow{
+    z-index: 2;
+    position: absolute;
+    top: 264px;
+    color: rgba(255, 246, 0, 0.75);
+    background-color: currentColor;
+    height: 4px;
+    width: 55px;
+
+}
+.betbuttons input{
+    height: 50px;
+    width: 200px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 30px;
+    vertical-align: middle;
+}
+.greenbutton{
+    background-color: #1fd900;
+    border: solid 5px #1a8700;
+}
+
+.greenbutton:hover{
+    transition: .2s;
+    background-color: #1ff100;
+    border: solid 5px #199a00;
+}
+.redbutton{
+    background-color: #d92300;
+    border: solid 5px #871900;
+}
+.redbutton:hover{
+    transition: .2s;
+    background-color: #f14400;
+    border: solid 5px #9a1700;
+}
+.blackbutton{
+    background-color: #5b5b5b;
+    border: solid 5px #474747;
+}
+.blackbutton:hover{
+    transition: .2s;
+    background-color: #797979;
+    border: solid 5px #525252;
+}
+.roll img{
+    z-index: 1;
+    height: 500px;
+    transform: rotate(-1074deg);
+    left: 10px;
+}
+.anim0{
+    animation: spin0 10s ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+.anim1{
+    animation: spin1 10s ease-out;
+    animation-fill-mode: forwards;
+}
+
+
+.anim2{
+    animation: spin2 10s ease-out;
+    animation-fill-mode: forwards;
+}
+.anim3{
+     animation: spin3 10s ease-out;
+     animation-fill-mode: forwards;
+ }
+.anim4{
+    animation: spin4 10s ease-out;
+    animation-fill-mode: forwards;
+}
+
+@keyframes spin0 {
+
+    0%{
+        transform: rotate(-1074deg);
+
+    }
+    100%{
+        transform: rotate(1080deg);
+    }
+}
+@keyframes spin1 {
+
+    0%{
+        transform: rotate(6deg);
+
+    }
+    100%{
+        transform: rotate(1527deg);
+    }
+}
+@keyframes spin2 {
+
+    0%{
+        transform: rotate(6deg);
+
+    }
+
+    100%{
+        transform: rotate(1502deg);
+    }
+}
+
+@keyframes spin3 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1660deg);
+    }
+}
+@keyframes spin4 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1820deg);
+    }
+}
+@keyframes spin5 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1784deg);
+    }
+}
+
+@keyframes spin6 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1938deg);
+    }
+}
+
+
+@keyframes spin7 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1918deg);
+    }
+}
+
+@keyframes spin8 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1904deg);
+    }
+}
+
+
+
+@keyframes spin9 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1928deg);
+    }
+}
+
+
+@keyframes spin10 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1953deg);
+    }
+}
+
+
+@keyframes spin11 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(1973deg);
+    }
+}
+
+@keyframes spin12 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(2006deg);
+    }
+}
+
+
+@keyframes spin13 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(2030deg);
+    }
+}
+
+
+@keyframes spin14 {
+    0%{
+        transform: rotate(6deg);
+    }
+
+    100%{
+        transform: rotate(2055deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
