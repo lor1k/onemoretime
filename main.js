@@ -107,3 +107,7 @@ function betx2(){
 function betd2(){
     document.getElementById('ammount').value = Math.round(document.getElementById('ammount').value/2);
 }
+
+function sanya(){
+    alert("LOX"):
+}
